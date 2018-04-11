@@ -32,7 +32,6 @@ term: The number of payments on the loan. Values are in months and can be either
 pub_rec: Number of derogatory public records <br/>
 max_bal_bc: Maximum current balance owed on all revolving accounts <br/>
 acc_now_delinq: The number of accounts on which the borrower is now delinquent.
-<br/>
 
 - Predict the interest rate on the loan using linear regression and get the predicted loan grade.
 

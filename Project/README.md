@@ -15,21 +15,24 @@ The Lending Club dataset provides us detailed information on all loans through t
 The goal of our project is to predict the LC assigned loan grade using features of the borrower. <br/>
 
 ### Plan
-- Choose features which are close to credit rating from the data set:
+- Preprocess the data
 
->home_ownership <br/>
-annual_income_joint <br/>
-emp_length <br/>
-inq_last_6mths <br/>
-installment <br/>
-last_pymnt_amnt <br/>
-open_acc <br/>
-loan_amnt <br/>
-pymnt_plan <br/>
-term <br/>
-pub_rec <br/>
-max_bal_bc <br/>
-acc_now_delinq <br/>
+- Choose features which are close to credit rating from the data set.
+
+>home_ownership: The home ownership status provided by the borrower during registration. Our values are: RENT, OWN, MORTGAGE, OTHER. <br/>
+annual_income_joint: The combined self-reported annual income provided by the co-borrowers during registration <br/>
+emp_length: Employment length in years. Possible values are between 0 and 10 where 0 means less than one year and 10 means ten or more years.  <br/>
+inq_last_6mths: The number of inquiries in past 6 months (excluding auto and mortgage inquiries) <br/>
+installment: The monthly payment owed by the borrower if the loan originates. <br/>
+last_pymnt_amnt: Last total payment amount received <br/>
+open_acc: The number of open credit lines in the borrower's credit file. <br/>
+loan_amnt: The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value. <br/>
+pymnt_plan: Indicates if a payment plan has been put in place for the loan <br/>
+term: The number of payments on the loan. Values are in months and can be either 36 or 60. <br/>
+pub_rec: Number of derogatory public records <br/>
+max_bal_bc: Maximum current balance owed on all revolving accounts <br/>
+acc_now_delinq: The number of accounts on which the borrower is now delinquent.
+<br/>
 
 - Predict the interest rate on the loan using linear regression and get the predicted loan grade.
 

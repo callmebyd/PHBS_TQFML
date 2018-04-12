@@ -33,6 +33,6 @@ pub_rec: Number of derogatory public records <br/>
 max_bal_bc: Maximum current balance owed on all revolving accounts <br/>
 acc_now_delinq: The number of accounts on which the borrower is now delinquent.
 
-- Predict the interest rate on the loan using linear regression and get the predicted loan grade.
+- Predict the loan grade using classification algorithms like Logistic Regression/SVM/KNN.
 
 - Adjust the model to get more accurate results.

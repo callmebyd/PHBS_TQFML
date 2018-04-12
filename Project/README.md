@@ -11,7 +11,7 @@
 > These files contain complete loan data for all loans issued through the 2007-2015, including the current loan status (Current, Late, Fully Paid, etc.) and latest payment information. The file containing loan data through the "present" contains complete loan data for all loans issued through the previous completed calendar quarter. Additional features include credit scores, number of finance inquiries, address including zip codes, and state, and collections among others. The file is a matrix of about 890 thousand observations and 75 variables. A data dictionary is provided in a separate file. 
 
 ### Project description:
-The Lending Club dataset provides us detailed information on all loans through the 2007-2015 in "data.csv". For each loan, there are 72 features, such as the number of payments on the loan (term), the number of accounts on which the borrower is now delinquent (acc_now_delinq).<br/>
+The Lending Club dataset provides us detailed information on all loans through the 2007-2015 in "data.csv". For each loan, there are 72 features, such as the number of payments on the loan (term).<br/>
 The goal of our project is to predict the LC assigned loan grade using features of the borrower. <br/>
 
 ### Plan
